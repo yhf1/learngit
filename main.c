@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <sys/stat.h>
+#include <dirent.h>
 #include "cp_single.h"
 #include "cp_directory.h"
-#define PATH_MAX 260
+//#define PATH_MAX 260
 
 
 char dest_path[PATH_MAX+1];
